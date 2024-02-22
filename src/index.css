@@ -1,0 +1,30 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap");
+.container {
+  width: calc(100% - 120px);
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.active {
+  font-weight: 800;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #eee;
+}

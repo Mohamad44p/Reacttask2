@@ -1,0 +1,72 @@
+/* Footer styles */
+.footer {
+  padding: 50px 0;
+  background-color: #393e46;
+  color: #fff;
+}
+
+.footerRow {
+  gap: 40px;
+}
+
+.footerLeftSide,
+.footerRightSide {
+  width: calc((100% - 40px) / 2);
+}
+
+.footerLeftSide {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.footer .logo {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+footer a {
+  color: #fff;
+  font-size: 14px;
+}
+
+footer img {
+  width: 35px;
+}
+
+.footerIcons {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.footerIcons svg {
+  width: 15px;
+  height: 15px;
+  border: 1px solid #fff;
+  padding: 10px;
+  box-sizing: content-box;
+}
+
+.footerRightSide {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.footerItem {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.footerItem nav {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex-wrap: wrap;
+}
