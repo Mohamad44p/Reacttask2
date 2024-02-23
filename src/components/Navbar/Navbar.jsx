@@ -1,5 +1,5 @@
 import styles from "./Navbar.module.css";
-
+import "../../index.css";
 function Navbar() {
   return (
     <header className={styles.header}>
@@ -11,7 +11,7 @@ function Navbar() {
           <nav>
             <ul>
               <li>
-                <a href="#" className={styles.active}>
+                <a href="#" className="active">
                   Home
                 </a>
               </li>
@@ -33,7 +33,7 @@ function Navbar() {
             <a href="#" className={styles.login}>
               Log in
             </a>
-            <a href="#" className="{styles.register}">
+            <a href="#" className={styles.register}>
               Register
             </a>
           </div>
